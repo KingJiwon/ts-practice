@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Tail from "./components/Tail";
+import TestHeader from "./TestHeader";
 
 function App() {
   return (
     <div className="App">
-      <Tail />
+      <TestHeader isLogin={true} userID="jiwon" />
     </div>
   );
 }
