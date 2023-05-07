@@ -9,7 +9,7 @@ test("19살이면 회원 가입 가능한지 테스트", () => {
   expect(btnEl).toBeInTheDocument();
   expect(btnEl).toBeEnabled();
   expect(btnEl).toHaveStyle({
-    backgroundColor: "royalblue",
+    backgroundColor: "skyblue",
   });
 });
 
